@@ -107,7 +107,7 @@ $ sudo rpm –qpR sample_file.rpm
 –R – This lists the requirements for the package
 ```
 ___
-#### wgert:
+#### wget:
 Fetch RPMs
 ```
 wget http://some_website/sample_file.rpm
