@@ -72,3 +72,49 @@ deal with mounts
 *NOTE:* 
  /etc/fstab               // location of devices to be automatecially mounted at startup
 ___
+#### Operation with RPMs:
+Install RPM Package
+```
+$ sudo rpm –i sample_file.rpm
+```
+or
+```
+sudo rpm –i sample_file.rpm
+```
+Upgrade RPM Package
+```
+$ sudo rpm –Uvh sample_file.rpm
+```
+```
+–i option instructs RPM to install the software
+```
+Remove RPM Packag
+```
+$ sudo rpm –e sample_file.rpm
+```
+```
+–e option instructs RPM to erase the software
+```
+---
+
+Check RPM Dependencies
+```
+$ sudo rpm –qpR sample_file.rpm
+```
+```
+–q – This option tells RPM to query the file
+–p – This option lets you specify the target package to query
+–R – This lists the requirements for the package
+```
+___
+#### wgert:
+Fetch RPMs
+```
+wget http://some_website/sample_file.rpm
+```
+install wget
+```
+sudo yum install wget
+```
+___
+
